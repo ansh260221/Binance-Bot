@@ -1,0 +1,13 @@
+[project]
+name = "binance-futures-testnet-trading-bot"
+version = "1.0.1"
+description = "Simplified Binance Futures Testnet trading bot with CLI and Vercel-compatible entrypoint"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.117.1",
+    "httpx==0.28.1",
+    "python-dotenv==1.1.0",
+]
+
+[tool.vercel]
+entrypoint = "main.py"
